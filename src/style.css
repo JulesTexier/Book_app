@@ -48,7 +48,10 @@ input {
   font-size: 14px;
 }
 
-
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
 
 
 .Menu {

@@ -10,12 +10,21 @@ const Menu = ({handleMenu}) => {
     array.push([localStorage.key(i), item])
   }
 
-  console.log(array)
+  function sayHello() {
+    if (window.confirm("Souhaitez-vous supprimer les notes?")) {
+      localStorage.clear();
+      document.location.reload();
+    } else {
+      alert("annulation");
+    }
+  }
+
 
   return (
 
   <div>
     <h3> Mes notes </h3>
+    <button className="delete" onClick={sayHello}>Supprimer</button>
     <ul>
       {array.map((element, index) => (
     <li key={index}>

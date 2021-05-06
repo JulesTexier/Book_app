@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MarkdownInput from 'components/MarkdownInput'
-import Menu from 'components/Menu'
+import MarkdownInput from 'components/MarkdownInput';
+import Menu from 'components/Menu';
 import NoteDisplay from 'components/NoteDisplay';
-import "style.css"
+import "style.css";
 
 const App = () => {
     const [text, setText] = React.useState('');
@@ -28,7 +28,12 @@ const App = () => {
 
 
   return (
-
+    
+  
+  <div>
+    <div>
+    <h1>Prequ'Evernote</h1>
+    </div>
     <div className="body">
       <div className="Menu">
         <Menu value={handleMenu}/>
@@ -38,11 +43,12 @@ const App = () => {
           <NoteDisplay value={text} titleValue={title} />
         </div>
         <div className="MarkdownInput">
-          <h1>Ecrire une note</h1>
+          <h2>Ecrire une note</h2>
           <MarkdownInput handleText={handleText} contentValue={text} titleValue={title} handleTitle={handleTitle} handleSave={handleSave}/>
         </div>
       </div>
     </div>
+  </div>
   )
 };
 
