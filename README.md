@@ -1,7 +1,7 @@
 
 #Pour faire fonctionnner l'app, tape dans ton terminal tape : 
-1/"install package.json"
-2/ "npm start"
+1/"npm install package.json"
+2/"npm start"
 
 
 
