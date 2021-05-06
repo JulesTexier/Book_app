@@ -1,3 +1,11 @@
+
+#Pour faire fonctionnner l'app, tape dans ton terminal tape : 
+1/"install package.json"
+2/ "npm start"
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

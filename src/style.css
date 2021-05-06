@@ -1,0 +1,75 @@
+.textbody {
+  display : flex;
+  flex-direction: column;
+  margin : 3em;
+  max-width: 600px;
+
+}
+
+.body{
+  font-family : Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  margin : 3em;
+}
+
+
+.titleArea {
+  min-width: 600px;
+  max-width: 600px;
+  background-color: #EAEAEA;
+  border-width: 0px;
+  border-style: none;
+  padding: 1em;
+  margin-top:2em;
+}
+textarea {
+  min-width: 600px;
+  background-color: #EAEAEA;
+  border-width: 0px;
+  border-style: none;
+  padding: 1em;
+  margin-top:2em;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+button {
+  margin-top:2em
+}
+
+input {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  min-width: 600px;
+  background-color: #EAEAEA;
+  border-width: 0px;
+  border-style: none;
+  padding: 1em;
+  font-size: 14px;
+}
+
+
+
+
+.Menu {
+  margin : 5px;
+}
+
+.card {
+padding:3em;
+border-width: 1px;
+padding: 5px
+}
+
+input {
+  background-color: #EAEAEA;
+  border-width: 0px;
+  border-style: none;
+  padding: 1em
+
+}
+
+.titlearea {
+  background-color: #EAEAEA;
+  border-width: 0px;
+}
